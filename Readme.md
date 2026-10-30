@@ -6,43 +6,6 @@ cosmological hydrodynamics simulation code called ***Arepo***
 
 The project directory is strutured as follows:
 
-/cosmo_sims/
-|
-|
-|-------/dm_only/
-|        |
-|        |___data_vis.py
-|        |
-|        |---snap_016.hdf5
-|
-|
-|-------/dm_hydro1/
-|         |       
-|         |---data_vis.py
-|         |
-|         |---snap_016.hdf5
-|
-|
-|-------/dm_hydro2/
-|         |
-|         |---data_vis.py
-|         |
-|         |---snap_016.hdf5
-|
-|
-|_______/star_formation1/
-|        |
-|        |---data_vis.py
-|        |
-|        |---snap_014.hdf5
-|
-|
-|______/star_formation2/
-        |
-        |---data_vis.py
-        |
-        |---snap_013.hdf5
-
 The **snap_xxx.hdf5** files are the data files that contain the simulation data
 whereas the **data_vis.py** files are there for the visualisation purpose. It has
 been written such that the user only needs to run the python file to open the inter-
@@ -60,7 +23,7 @@ The user can install the project on their system by following the below steps.
 Copy the project url from github and run the following commands:
 
 ```bash
-git clone project_url
+git clone https://github.com/A-n-i-r-b-a-n/cosmo_sims.git
 cd cosmo_sims
 ```
 ### Install required python packages
@@ -78,6 +41,7 @@ python3 -m pip install -r requirements.txt
 **For Windows(On windows powershell)**
 ```bash
 python -m venv new_env
+
 .\new_env\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
