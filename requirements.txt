@@ -1,0 +1,10 @@
+#Following are the python libraries required to run the data visualisation files in each sub folders
+
+##################
+# Libraries      #
+##################
+
+numpy
+pyvista
+h5py
+
