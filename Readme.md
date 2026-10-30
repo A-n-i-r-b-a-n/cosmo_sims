@@ -6,13 +6,8 @@ cosmological hydrodynamics simulation code called ***Arepo***
 
 The project directory is strutured as follows:
 
-The **snap_xxx.hdf5** files are the data files that contain the simulation data
-whereas the **data_vis.py** files are there for the visualisation purpose. It has
-been written such that the user only needs to run the python file to open the inter-
-active cosmological box. The user can ply around with various color combinations used 
-to label different particle types, eg. star paricles, darek matter particles and gas
-particles. 
-
+The **snap_xxx.hdf5** files are the data files that contain the simulation data of the final snapshot generated, whereas the **data_vis.py** files are there for the visualisation purpose. The **info.txt** files contain some information about the particular simulation. The **data_vis.py** files have been written such that the user 
+only needs to run the python files to open the interactive cosmological box. The user can play around with various color combinations used to label different particle types, eg. star paricles, darek matter particles and gas particles. 
 
 ## Installation
 

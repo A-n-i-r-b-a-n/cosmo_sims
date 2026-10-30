@@ -1,0 +1,8 @@
+This is a simulation that follows the evolution of the dark matter only univers 
+from redshift z = 99 to z = 0. 
+
+===============
+Color code
+===============
+
+White: Dark matter

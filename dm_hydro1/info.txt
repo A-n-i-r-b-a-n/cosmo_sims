@@ -1,0 +1,10 @@
+This is a simulation that implements the interaction of dark matter and baryons in an evolving
+universe.The simulation follows the evolution of the universe from redshift z = 99 to z = 0. 
+While dark matter only interacts with gravity, baryons follow hydrodynamics. 
+
+===============
+Color code
+===============
+
+Red : Dark Matter
+White: Baryons 
