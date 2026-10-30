@@ -57,7 +57,7 @@ python3 data_vis.py
 ```
 
 An interactive cosmological simulation box should open, drag the box to rotate it along
-all three direction, scroll in and scroll out to zoom in and zoom our respectively. 
+all three direction, scroll in and scroll out to zoom in and zoom out respectively. 
 
 
 
